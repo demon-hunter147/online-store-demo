@@ -1,0 +1,15 @@
+/*Home Page - Middle section Style*/
+
+.headingbackground {
+    background-image: url("../Images/lake-background.jpg");
+    background-size: cover;
+    height: 85vh;
+    background-position: center center;
+}
+
+#mainHeading {
+    color: #4cd4ca;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/*End - Home Page - Middle section Style*/

@@ -1,0 +1,144 @@
+/*Sliding Bar Styles*/
+#flashingBar {
+    width: 300px;
+    height: 0.35em;
+    position: relative;
+    left: -300px;
+    background-color: white;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 33.3%, rgba(255, 255, 255, 1) 66.6%, rgba(0, 0, 0, 0) 100%);
+}
+
+/*main Body CSS */
+
+.mainbody {
+    background: #21597c;
+    min-height: 100vh;
+    color: #fff;
+    animation: colorchange 4s infinite alternate;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    overflow-x: hidden;
+}
+
+@keyframes colorchange {
+    from {
+        background-color: #21597c;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+/*Menu and Navbar Styles*/
+
+.navbar-brand {
+    max-width: 5em;
+}
+
+.btn-primary,
+.btn-primary:disabled {
+    background-color: #4cd4ca;
+    border-color: #4cd4ca;
+}
+
+.btn-outline-primary {
+    color: #4cd4ca;
+    border-color: #4cd4ca;
+}
+
+.btn-primary:hover {
+    background-color: #a5a5a5;
+    border-color: #a5a5a5;
+}
+
+.btn-outline-primary:hover,
+.btn-check:checked+.btn-outline-primary {
+    color: #fff;
+    background-color: #4cd4ca;
+    border-color: #4cd4ca;
+}
+
+.btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgb(165 165 165 / 75%);
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #4cd4ca !important;
+}
+
+.nav-link:focus {
+    color: #a5a5a5 !important;
+}
+
+.nav-link.active,
+.dropdown-item.active {
+    background-color: #4cd4ca !important;
+}
+
+.nav-link.active:hover,
+.dropdown-item.active:hover,
+.dropdown-item.active:focus {
+    color: #727b83 !important;
+}
+
+.dropdown-item:active {
+    background-color: #4cd4ca !important;
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    margin-left: -0.25em;
+}
+
+/*End - Menu and Navbar Styles*/
+
+
+/*Generic styles */
+
+/*Add borders for all images */
+
+img {
+    border: 2px solid white;
+}
+
+
+/*Padding for images and buttons*/
+
+img,
+button {
+    padding: 1px;
+}
+
+/*Scale Images on Hover*/
+
+img:hover {
+    transform: scale(1.5) translate(5%, 5%);
+    z-index: 2;
+}
+
+/*Filter Images - Sepia Filter*/
+
+.filtered-image {
+    filter: sepia(0.8);
+}
+
+
+/*Styles for lists*/
+ul,
+ol {
+    list-style-type: disclosure-closed;
+}
+
+/*Off Canvas Shopping Cart Style */
+.offcanvas {
+    background-color: #4cd4ca;
+}
+
+
+/*End - Generic Styles */
